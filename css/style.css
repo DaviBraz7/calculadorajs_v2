@@ -24,13 +24,13 @@ body{
     align-items: center;
 }
 
-.num{
+.elem , .num{
     width: 64px;
     height: 67px;
 }
 
 #result{
-    width: 164px;
+    width: 230px;
     height: 26px;
     border-radius: 20px;
     letter-spacing: 5px;
@@ -40,7 +40,16 @@ body{
     color: #000;
 }
 
-
+#L2{
+    width: 131px;
+    height: 67px;
+    border-radius: 22px;
+    letter-spacing: 5px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
 
 .text1{
     width: 64px;
@@ -48,6 +57,7 @@ body{
     border-radius: 22px;
     letter-spacing: 5px;
     text-align: center;
+    align-items: center;
     margin-bottom: 2px;
     cursor: pointer;
     

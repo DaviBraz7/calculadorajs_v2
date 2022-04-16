@@ -10,29 +10,32 @@
     <div class="main">
         <div action="" name="Calculator">
             <div class="div_top">
-                <p type="text" id="result" class="" name="text1"></p>
-                <input type="button" class="text1 maincolor" name="text12" value="C"  onclick="location.reload()"><br>
+                <p type="text" id="result" class="" name="text1"></p><br>
+            </div>
+            <div>
+                <input type="button" class="maincolor" id="L2" name="text12" value="C"  onclick="location.reload()">
+                <input type="button" class="maincolor" id="L2" name="text12" value="⟵" onclick="back()" >
             </div>
 
             <input type="button" class="num maincolor" name="btn9" value="9" onclick="displaynum('9')">
             <input type="button" class="num maincolor" name="btn8" value="8" onclick="displaynum('8')">
             <input type="button" class="num maincolor" name="btn7" value="7" onclick="displaynum('7')">
-            <input type="button" class="num blue" name="addbtn" value="+" onclick="displaynum('+')"><br>
+            <input type="button" class="elem blue" name="addbtn" value="+" onclick="funcion('+')"><br>
             
             <input type="button" class="num maincolor" name="btn6" value="6" onclick="displaynum('6')">
             <input type="button" class="num maincolor" name="btn5" value="5" onclick="displaynum('5')">
             <input type="button" class="num maincolor" name="btn4" value="4" onclick="displaynum('4')">
-            <input type="button" class="num pin" name="subbtn" value="-" onclick="displaynum('-')"><br>
+            <input type="button" class="elem pin" name="subbtn" value="-" onclick="funcion('-')"><br>
 
             <input type="button" class="num maincolor" name="btn3" value="3" onclick="displaynum('3')">
             <input type="button" class="num maincolor" name="btn2" value="2" onclick="displaynum('2')">
             <input type="button" class="num maincolor" name="btn1" value="1" onclick="displaynum('1')">
-            <input type="button" class="num gre" name="mulbtn" value="*" onclick="displaynum('*')"><br>
+            <input type="button" class="elem gre" name="mulbtn" value="*" onclick="funcion('*')"><br>
 
-            <input type="button" class="num maincolor" name="dot" value="." onclick="displaynum('.')">
+            <input type="button" class="elem maincolor" name="dot" value="." onclick="displaynum('.')">
             <input type="button" class="num maincolor" name="btn0" value="0" onclick="displaynum('0')">
-            <input type="button" class="num pur" name="eqlbtn" value="=" onclick="calculate()">
-            <input type="button" class="num ora" name="divbtn" value="/" onclick="displaynum('/')"><br>
+            <input type="button" class="elem pur" name="eqlbtn" value="=" onclick="calculate()">
+            <input type="button" class="elem ora" name="divbtn" value="/" onclick="funcion('/')"><br>
 
         </div>
     </div>
